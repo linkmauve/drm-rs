@@ -16,7 +16,7 @@ update_bindings = ["use_bindgen"]
 
 [build-dependencies]
 bindgen = { version = "0.70", optional = true }
-pkg-config = { version = "0.3.19", optional = true }
+pkg-config = { version = "0.3.27", optional = true }
 
 [target.'cfg(any(target_os = "android", target_os = "linux"))'.dependencies]
 linux-raw-sys = { version = "0.9", default-features = false, features = ["general", "no_std"] }
